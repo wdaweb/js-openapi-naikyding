@@ -98,7 +98,7 @@ function getStyleList(){
     $('.loading').toggle();
     let contents = '';
     let url = 'https://www.googleapis.com/youtube/v3/search'
-                    +'?key=AIzaSyAp9ExBr07uouYCQYL5rNW-5ex0-xJ3ieA' //apiKey
+                    //apiKey
                     +'&part=snippet'
                     +`&q=pop+hits+2019` //searchText
                     +`&type=video` //video  playlist channel
@@ -212,7 +212,7 @@ function ajax_youTube(){
         let searchText = $('input[name="keyword"]').val();
         let contents = '';
         let url = 'https://www.googleapis.com/youtube/v3/search'
-                    +'?key=AIzaSyAp9ExBr07uouYCQYL5rNW-5ex0-xJ3ieA' //apiKey
+                    //apiKey
                     +'&part=snippet'
                     +`&q=${searchText}` //searchText
                     +`&type=video` //video  playlist channel
